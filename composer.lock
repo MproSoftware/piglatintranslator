@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1624f13bc3219ba64e850611964e5e02",
+    "hash": "0a576c3f9f914b627585be1eec1a9775",
     "packages": [
         {
             "name": "dg/adminer-custom",
@@ -24,6 +24,56 @@
             "notification-url": "https://packagist.org/downloads/",
             "description": "Customization for the best database management tool written in PHP, Adminer",
             "time": "2014-06-11 07:56:43"
+        },
+        {
+            "name": "kdyby/bootstrap-form-renderer",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Kdyby/BootstrapFormRenderer.git",
+                "reference": "66b05b23bc4cde16efd75a2acba83f94c3ff8861"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Kdyby/BootstrapFormRenderer/zipball/66b05b23bc4cde16efd75a2acba83f94c3ff8861",
+                "reference": "66b05b23bc4cde16efd75a2acba83f94c3ff8861",
+                "shasum": ""
+            },
+            "require": {
+                "nette/nette": "~2.1@dev"
+            },
+            "require-dev": {
+                "jakub-onderka/php-parallel-lint": "~0.6",
+                "nette/tester": "@dev"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Kdyby\\BootstrapFormRenderer\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause",
+                "GPL-2.0",
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Filip Procházka",
+                    "email": "filip@prochazka.su",
+                    "homepage": "http://filip-prochazka.com"
+                }
+            ],
+            "description": "Nette forms renderer with bootstrap",
+            "homepage": "http://kdyby.org",
+            "keywords": [
+                "Forms",
+                "bootstrap",
+                "kdyby",
+                "nette"
+            ],
+            "time": "2014-06-19 14:09:19"
         },
         {
             "name": "latte/latte",
@@ -1211,9 +1261,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "kdyby/bootstrap-form-renderer": 20
+    },
     "platform": {
         "php": ">= 5.3.7"
     },
