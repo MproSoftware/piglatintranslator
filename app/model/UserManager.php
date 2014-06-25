@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Model;
+namespace PigLatinTranslator\Model;
 
 use Nette,
 	Nette\Utils\Strings,

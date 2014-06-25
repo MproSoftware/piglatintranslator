@@ -15,13 +15,13 @@ nette:
 	application:
 		errorPresenter: Error
 		mapping:
-			*: App\*Module\Presenters\*Presenter
+			*: PigLatinTranslator\*Module\Presenters\*Presenter
 
 	session:
 		expiration: 14 days
 
 
 services:
-	- App\Model\UserManager
-	- App\RouterFactory
-	router: @App\RouterFactory::createRouter
+	- PigLatinTranslator\Model\UserManager
+	- PigLatinTranslator\RouterFactory
+	router: @PigLatinTranslator\RouterFactory::createRouter

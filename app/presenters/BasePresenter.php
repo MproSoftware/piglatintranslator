@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Presenters;
+namespace PigLatinTranslator\Presenters;
 
 use Nette,
-	App\Model;
+	PigLatinTranslator\Model;
 
 
 /**
