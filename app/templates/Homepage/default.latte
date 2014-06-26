@@ -1,2 +1,8 @@
 {block content}
+	{control translatorForm}
+
+	{if isset($translate)}
+		<h2>Překlad</h2>
+		<div>{$translate}</div>
+	{/if}
 {/block}
