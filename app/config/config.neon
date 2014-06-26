@@ -22,6 +22,7 @@ nette:
 
 
 services:
-	- PigLatinTranslator\Model\UserManager
 	- PigLatinTranslator\RouterFactory
 	router: @PigLatinTranslator\RouterFactory::createRouter
+
+	- PigLatinTranslator\Services\PigLatinTranslator
